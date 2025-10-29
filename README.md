@@ -21,7 +21,7 @@ Her proje, bağımsız yapıda çalışan özgün bir **API servisi** olarak yap
   Eğitim, tahmin ve arayüz etkileşimi tamamen sıfırdan kodlanmıştır.  
 
 #### 🔹 Arayüz Görseli
-<img src="MLOps/API%20-%20(Model%20Servişleştirme)/Hyso_Kütüphanesi_CNN_API.png" width="750"/>
+<img src="MyAPI/- Kendi API'mizi Kullanalım -/Torch - CNN -/Torch - CNN.png" width="750"/>
 
 ---
 
@@ -30,7 +30,7 @@ Her proje, bağımsız yapıda çalışan özgün bir **API servisi** olarak yap
 - **Model Tabanı:** Transformer tabanlı encoder–decoder mimarisi  
 - **Teknolojiler:** `PyTorch`, `JavaScript`  
 - **Özellik:**  
-  Sıfırdan geliştirilmiş model; **DropPath**, **MultiHeadAttention**, **FeedForward**, **Positional Encoding**, **Token Embedding** ve **Seq2Seq** yapılarıyla oluşturulmuştur.  
+  Sıfırdan geliştirilmiş model; **DropPath**, **MultiHeadAttention**, **FeedForward**, **Positional Encoding**, **Token Embedding**  yapılarıyla oluşturulmuştur.  
   Model, çok katmanlı encoder–decoder mimarisiyle **metin üretimi**, **özetleme** ve **anlam çıkarımı** yapabilir.  
 - **Çalışma Prensibi:**  
   Kullanıcı girdisine göre dinamik yanıtlar üretir ve bu yanıtlar API aracılığıyla web arayüzünde gösterilir.  
@@ -38,13 +38,22 @@ Her proje, bağımsız yapıda çalışan özgün bir **API servisi** olarak yap
   Bu modelde, modern Transformer yapısına ek olarak **socket kütüphanesi anlatımı** ve LLM üzerinde **socket tabanlı etkileşim özellikleri** de uygulanmıştır.  
 
 #### 🔹 Arayüz Görseli
-<img src="MLOps/API%20-%20(Model%20Servişleştirme)/Kendi_LLM_Modelimizn_API_Goruntusu.png" width="750"/>
+<img src="MyAPI/- Kendi API'mizi Kullanalım -/Torch - LLM -/Torch-LLM.png" width="750"/>
 
 ---
 
-### 3️⃣ Diğer Özel Servisler
-Bu repoda yer alan her servis, model mimarisi ve veri yapısına göre ayrı ayrı tasarlanmış,  
-API entegrasyonu, arayüz bağlantısı ve test süreçleriyle birlikte sunulmuştur.  
+### 3️⃣ ML Regresyon Servisi
+- **Amaç:** Basit makine öğrenmesi modellerini (örneğin Linear veya Polynomial Regression) API olarak servisleştirmek.  
+- **Model Tabanı:** `scikit-learn` ve `PyTorch` ile eğitilmiş regresyon modelleri  
+- **Teknolojiler:** `Python`, `FastAPI`, `HTML`, `JavaScript`  
+- **Özellik:**  
+  Model, kullanıcıdan aldığı giriş verilerini kullanarak tahmin işlemini gerçekleştirir ve sonucu JSON formatında döner.  
+  Eğitim süreci sonrası model `.pkl` veya `.pt` dosyası olarak kaydedilmiş, API’ye entegre edilmiştir.  
+- **Çalışma Prensibi:**  
+  Web arayüzü üzerinden girilen sayısal veriler API’ye gönderilir → model tahmin yapar → sonuç tarayıcıda görüntülenir.  
+
+#### 🔹 Arayüz Görseli
+<img src="MyAPI/- Kendi API'mizi Kullanalım -/Sklearn - ML -/ML.png" width="750"/>
 
 ---
 
