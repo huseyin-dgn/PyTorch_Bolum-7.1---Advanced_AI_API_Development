@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <body>
+    <h3>Sum Test</h3>
+    <input id="a" placeholder="a" /> +
+    <input id="b" placeholder="b" />
+    <button onclick="send()">Topla</button>
+    <pre id="out"></pre>
+    <script>
+      async function send() {
+        const a = document.getElementById("a").value;
+        const b = document.getElementById("b").value;
+        const res = await fetch("http://127.0.0.1:8082/sum", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ a, b }),
+        });
+        document.getElementById("out").textContent = await res.text();
+      }
+    </script>
+  </body>
+</html>
+<script>
+  async function toplamaYap() {
+    const a = parseFloat(document.getElementById("a").value || 0);
+    const b = parseFloat(document.getElementById("b").value || 0);
+
+    // JSON endpoint: {"sum": 12.0}
+    const res = await fetch("/sum", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ a, b }),
+    });
+
+    // JSON olarak oku, sadece sayıyı yaz
+    const data = await res.json().catch(() => ({ sum: "NaN" }));
+    const sonuc =
+      typeof data.sum === "number" ? data.sum : parseFloat(data.sum);
+    document.getElementById("sonuc").textContent = isFinite(sonuc)
+      ? String(sonuc)
+      : "Hata";
+  }
+</script>

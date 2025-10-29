@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Model Tahmin Arayüzü</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>🧠 Model Tahmin Paneli</h1>
+        <p class="subtitle">
+          Virgülle ayrılmış sayıları gir, <b>Tahmin Al</b>’a bas.
+        </p>
+
+        <div class="row">
+          <div>
+            <label for="numbers">Girdi (virgülle ayrılmış sayılar)</label>
+            <textarea
+              id="numbers"
+              rows="5"
+              placeholder="Örn: 10, 20, 30"
+            ></textarea>
+
+            <div class="toolbar" style="margin-top: 10px">
+              <button
+                class="pill"
+                type="button"
+                onclick="setExample([10,20,30])"
+              >
+                Örnek 10,20,30
+              </button>
+              <button
+                class="pill"
+                type="button"
+                onclick="setExample([1,2,3,4,5])"
+              >
+                Örnek 1..5
+              </button>
+              <button class="pill" type="button" onclick="clearAll()">
+                Temizle
+              </button>
+            </div>
+
+            <div style="display: flex; gap: 10px; margin-top: 14px">
+              <button id="btnPredict" onclick="predict()">Tahmin Al</button>
+              <button type="button" onclick="toggleHost()">
+                Host/Port Değiştir
+              </button>
+            </div>
+
+            <div class="status" id="status">
+              <span class="dot" id="dot"></span>
+              <span id="msg" class="muted">Hazır</span>
+            </div>
+          </div>
+
+          <div>
+            <label for="apiBase">API Base URL</label>
+            <input id="apiBase" value="http://127.0.0.1:8097" />
+            <div class="small muted" style="margin-top: 6px">
+              <span class="badge mono">POST /predict</span> çağrılır.
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 20px">
+          <table id="resultTable" style="display: none">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Girdi</th>
+                <th>Tahmin</th>
+              </tr>
+            </thead>
+            <tbody id="resultBody"></tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3" class="right small muted">
+                  X-Response-Time: <span id="xrt" class="mono">—</span> | Adet:
+                  <span id="count" class="mono">0</span>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+          <p id="emptyHint" class="center muted">
+            Henüz sonuç yok. Veri gir ve <b>Tahmin Al</b>’a tıkla.
+          </p>
+        </div>
+
+        <div class="footer">
+          Uç nokta: <span class="badge mono">POST /predict</span> • İçerik:
+          <span class="badge mono">{"x":[..]}</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

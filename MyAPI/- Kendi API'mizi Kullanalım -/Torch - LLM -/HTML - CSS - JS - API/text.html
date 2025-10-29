@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>🧠 LLM Studio • Local API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- favicon 404’u önlemek için inline -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Ctext y='1em' font-size='96'%3E🧠%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <!-- Arka plan süsleri -->
+    <div class="backdrop">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="grid"></div>
+    </div>
+
+    <div class="app">
+      <!-- Sol: Chat -->
+      <section class="panel chat">
+        <header class="topbar">
+          <div class="brand">
+            <span class="logo">🧠</span>
+            <div>
+              <h1>LLM Studio</h1>
+              <p class="muted">Local Transformer • /generate</p>
+            </div>
+          </div>
+
+          <div class="toolbar">
+            <div class="endpoint">
+              <span class="mono">API:</span>
+              <input id="apiBase" value="http://127.0.0.1:8097" />
+              <span class="ping" id="healthDot" title="Health"></span>
+            </div>
+            <button
+              class="btn ghost"
+              id="btnReload"
+              title="Ağı yeniden yükle (POST /reload)"
+            >
+              ↻ Reload
+            </button>
+            <button class="btn" id="btnDocs" title="Kısa kılavuz">?</button>
+            <button class="btn" id="btnClear" title="Konuşmayı temizle">
+              🗑
+            </button>
+          </div>
+        </header>
+
+        <div id="chat" class="chatlog">
+          <div class="sys hint">
+            <p>
+              <b>Hoş geldin!</b> Mesajını aşağıya yaz.
+              <span class="kbd">Ctrl</span> + <span class="kbd">Enter</span> ile
+              gönder.
+            </p>
+            <p>Model: <span id="modelInfo" class="mono">yükleniyor…</span></p>
+          </div>
+        </div>
+
+        <footer class="composer">
+          <div class="compose">
+            <textarea
+              id="prompt"
+              rows="2"
+              placeholder="Soru: Türkiye'nin başkenti nedir?&#10;Cevap:"
+            ></textarea>
+            <div class="actions">
+              <div class="sliders">
+                <label title="Sıcaklık (0 = deterministik)">
+                  <span>Temp</span>
+                  <input
+                    id="temperature"
+                    type="range"
+                    min="0"
+                    max="1"
+                    step="0.05"
+                    value="0.7"
+                  />
+                  <output id="temperatureVal">0.7</output>
+                </label>
+                <label title="Üretilecek maksimum yeni token">
+                  <span>Max Tokens</span>
+                  <input
+                    id="maxNew"
+                    type="range"
+                    min="1"
+                    max="256"
+                    step="1"
+                    value="96"
+                  />
+                  <output id="maxNewVal">96</output>
+                </label>
+              </div>
+              <div class="cta">
+                <button class="btn primary" id="btnSend">Gönder ➤</button>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- Sağ: Yan Panel -->
+      <aside class="panel side">
+        <div class="card stat">
+          <h3>İstek Özeti</h3>
+          <div class="stats">
+            <div>
+              <span class="label">Latency</span
+              ><span id="lat" class="mono">—</span>
+            </div>
+            <div>
+              <span class="label">X-RT</span
+              ><span id="xrt" class="mono">—</span>
+            </div>
+            <div>
+              <span class="label">Tokens</span
+              ><span id="tok" class="mono">—</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Kopyala & Dışa Aktar</h3>
+          <div class="row">
+            <button class="btn ghost" id="btnCopyLast">
+              Son Cevabı Kopyala
+            </button>
+            <button class="btn ghost" id="btnExport">
+              Konuşmayı .txt Olarak Kaydet
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Mini Kılavuz</h3>
+          <ol class="guide">
+            <li>
+              Prompt alanına yaz -> <span class="kbd">Ctrl</span> +
+              <span class="kbd">Enter</span>.
+            </li>
+            <li>Sağ panelden gecikme ve token sayısını izle.</li>
+            <li>Modeli güncelledin mi? <b>Reload</b> ile hafızayı tazele.</li>
+          </ol>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" class="toast hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

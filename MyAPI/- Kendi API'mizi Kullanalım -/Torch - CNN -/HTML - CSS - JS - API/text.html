@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hyso CNN • Neon Vision</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hero">
+        <div class="brand">
+          <div class="logo">H</div>
+          <div>
+            <h1>Hyso CNN • Neon Vision</h1>
+            <p class="muted">
+              Gece teması. Mor lavanta vurgular. Canlı tahmin paneli.
+            </p>
+          </div>
+        </div>
+        <div class="quick">
+          <span class="chip">POST /predict-image</span>
+          <span class="chip">GET /labels</span>
+          <span class="chip">GET /health</span>
+        </div>
+      </header>
+
+      <main class="grid">
+        <!-- Sol: Görsel Yükleme -->
+        <section class="panel">
+          <div class="row">
+            <div class="field">
+              <label for="apiBase">API Base URL</label>
+              <input id="apiBase" type="text" value="http://127.0.0.1:8096" />
+            </div>
+            <div class="field w-s">
+              <label for="topk">Top-K</label>
+              <select id="topk">
+                <option>1</option>
+                <option selected>3</option>
+                <option>5</option>
+                <option>10</option>
+              </select>
+            </div>
+          </div>
+
+          <label>Görsel</label>
+          <div id="drop" class="drop">
+            <div class="drop-inner">
+              <div class="drop-title">Dosya bırak ya da seç</div>
+              <div class="muted">PNG • JPG • JPEG</div>
+              <button class="btn outline" id="btnPick">Dosya Seç</button>
+              <input id="file" type="file" accept="image/*" hidden />
+            </div>
+          </div>
+
+          <img id="preview" class="thumb" alt="" />
+
+          <div class="row actions">
+            <button class="btn" id="btnPredict">Tahmin Et</button>
+            <button class="btn ghost" id="btnClear">Temizle</button>
+            <button class="btn ghost" id="btnHealth">Sağlık</button>
+          </div>
+
+          <div id="status" class="status">
+            <span class="dot"></span><span id="msg">Hazır</span>
+          </div>
+        </section>
+
+        <!-- Sağ: Sonuçlar -->
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Sonuçlar</h2>
+            <div class="meta">
+              <span>X-Response-Time: <b id="xrt">—</b></span>
+              <span>Model: <b id="mdl">—</b></span>
+            </div>
+          </div>
+          <ul id="predList" class="pred-list" hidden></ul>
+          <p id="emptyHint" class="muted center">
+            Henüz sonuç yok. Bir görsel seç ve <b>Tahmin Et</b>’e bas.
+          </p>
+        </section>
+      </main>
+
+      <footer class="foot muted">
+        <span class="chip soft">multipart/form-data → <b>file</b></span>
+        <span class="chip soft">body → <b>topk</b></span>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+{"input": "Tarihi normalleştir: 25/3/2022", "target": "25 Mart 2022"}
+{"input": "Listeyi sırala: 8 8 5 4", "target": "4 5 8 8"}
+{"input": "Tarihi normalleştir: 10/10/2017", "target": "10 Ekim 2017"}
+{"input": "Türkçeyi İngilizceye çevir: iyi", "target": "good"}
+{"input": "Listeyi benzersiz yap: 7 0 2 8", "target": "0 2 7 8"}
+{"input": "Fransa'nın başkenti nedir?", "target": "Paris"}
+{"input": "Almanya'nın başkenti nedir?", "target": "Berlin"}
+{"input": "Türkçeyi İngilizceye çevir: iyi", "target": "good"}
+{"input": "Listeyi sırala: 0 9 3 9 8 3", "target": "0 3 3 8 9 9"}
+{"input": "Listeyi sırala: 1 8 7 1", "target": "1 1 7 8"}
+{"input": "İngilizceyi Türkçeye çevir: good", "target": "iyi"}
+{"input": "Listeyi benzersiz yap: 5 6 2 6", "target": "2 5 6"}
+{"input": "Listeyi ters çevir: 0 4 5 5 4 7", "target": "7 4 5 5 4 0"}
+{"input": "İngilizceyi Türkçeye çevir: good", "target": "iyi"}
+{"input": "Hesapla: 6 - 7", "target": "-1"}
+{"input": "Duygu etiketini söyle: müzikler güzel oyunculuk iyi", "target": "pozitif"}
+{"input": "Hesapla: 6 * 2", "target": "12"}
+{"input": "İngilizceyi Türkçeye çevir: dog", "target": "köpek"}
+{"input": "Listeyi ters çevir: 1 9 6 1 0 6", "target": "6 0 1 6 9 1"}
+{"input": "Hesapla: 4 + 6", "target": "10"}
+{"input": "İngilizceyi Türkçeye çevir: book", "target": "kitap"}
+{"input": "Duygu etiketini söyle: berbattı hiç beğenmedim", "target": "negatif"}
+{"input": "Duygu etiketini söyle: müzikler güzel oyunculuk iyi", "target": "pozitif"}
+{"input": "Listeyi benzersiz yap: 0 4 9 4 7 8 7", "target": "0 4 7 8 9"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "İngiltere'nin başkenti nedir?", "target": "Londra"}
+{"input": "Listeyi ters çevir: 1 4 6 2 7 3 0", "target": "0 3 7 2 6 4 1"}
+{"input": "Fransa'nın başkenti nedir?", "target": "Paris"}
+{"input": "Tarihi normalleştir: 3/10/2020", "target": "3 Ekim 2020"}
+{"input": "İngilizceyi Türkçeye çevir: green", "target": "yeşil"}
+{"input": "Listeyi benzersiz yap: 1 5 8 9 0 4 2", "target": "0 1 2 4 5 8 9"}
+{"input": "İngilizceyi Türkçeye çevir: blue", "target": "mavi"}
+{"input": "Tarihi normalleştir: 23/3/2020", "target": "23 Mart 2020"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Listeyi ters çevir: 5 0 4 4 8 1 8", "target": "8 1 8 4 4 0 5"}
+{"input": "Duygu etiketini söyle: berbattı hiç beğenmedim", "target": "negatif"}
+{"input": "İtalya'nın başkenti nedir?", "target": "Roma"}
+{"input": "Duygu etiketini söyle: çok sıkıcıydı tavsiye etmem", "target": "negatif"}
+{"input": "Listeyi ters çevir: 4 5 1 8 9 5", "target": "5 9 8 1 5 4"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Duygu etiketini söyle: çok sıkıcıydı tavsiye etmem", "target": "negatif"}
+{"input": "Listeyi ters çevir: 6 5 2 1 3 2 8", "target": "8 2 3 1 2 5 6"}
+{"input": "Duygu etiketini söyle: berbattı hiç beğenmedim", "target": "negatif"}
+{"input": "Türkçeyi İngilizceye çevir: kötü", "target": "bad"}
+{"input": "Türkçeyi İngilizceye çevir: dünya", "target": "world"}
+{"input": "Tarihi normalleştir: 15/2/2016", "target": "15 Şubat 2016"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Tarihi normalleştir: 12/5/2020", "target": "12 Mayıs 2020"}
+{"input": "Duygu etiketini söyle: müzikler güzel oyunculuk iyi", "target": "pozitif"}
+{"input": "Türkçeyi İngilizceye çevir: mavi", "target": "blue"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "Türkiye'nin başkenti nedir?", "target": "Ankara"}
+{"input": "Duygu etiketini söyle: berbattı hiç beğenmedim", "target": "negatif"}
+{"input": "Hesapla: 2 - 3", "target": "-1"}
+{"input": "Duygu etiketini söyle: berbattı hiç beğenmedim", "target": "negatif"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Tarihi normalleştir: 23/2/2016", "target": "23 Şubat 2016"}
+{"input": "Almanya'nın başkenti nedir?", "target": "Berlin"}
+{"input": "Tarihi normalleştir: 2/4/2016", "target": "2 Nisan 2016"}
+{"input": "İtalya'nın başkenti nedir?", "target": "Roma"}
+{"input": "İngilizceyi Türkçeye çevir: world", "target": "dünya"}
+{"input": "Listeyi sırala: 4 0 1 1", "target": "0 1 1 4"}
+{"input": "İngilizceyi Türkçeye çevir: dog", "target": "köpek"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "Türkiye'nin başkenti nedir?", "target": "Ankara"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "İngilizceyi Türkçeye çevir: cat", "target": "kedi"}
+{"input": "Türkçeyi İngilizceye çevir: kitap", "target": "book"}
+{"input": "Duygu etiketini söyle: çok sıkıcıydı tavsiye etmem", "target": "negatif"}
+{"input": "İngilizceyi Türkçeye çevir: book", "target": "kitap"}
+{"input": "İtalya'nın başkenti nedir?", "target": "Roma"}
+{"input": "Duygu etiketini söyle: berbattı hiç beğenmedim", "target": "negatif"}
+{"input": "Listeyi sırala: 1 3 8 7", "target": "1 3 7 8"}
+{"input": "Listeyi benzersiz yap: 7 1 2 5 6", "target": "1 2 5 6 7"}
+{"input": "Tarihi normalleştir: 7/9/2018", "target": "7 Eylül 2018"}
+{"input": "Tarihi normalleştir: 4/6/2016", "target": "4 Haziran 2016"}
+{"input": "Tarihi normalleştir: 4/9/2017", "target": "4 Eylül 2017"}
+{"input": "Tarihi normalleştir: 25/6/2019", "target": "25 Haziran 2019"}
+{"input": "Türkçeyi İngilizceye çevir: dünya", "target": "world"}
+{"input": "Listeyi ters çevir: 6 4 7 9", "target": "9 7 4 6"}
+{"input": "Hesapla: 4 + 7", "target": "11"}
+{"input": "İngilizceyi Türkçeye çevir: green", "target": "yeşil"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Tarihi normalleştir: 22/6/2017", "target": "22 Haziran 2017"}
+{"input": "Almanya'nın başkenti nedir?", "target": "Berlin"}
+{"input": "Hesapla: 1 - 6", "target": "-5"}
+{"input": "Türkçeyi İngilizceye çevir: dünya", "target": "world"}
+{"input": "İngiltere'nin başkenti nedir?", "target": "Londra"}
+{"input": "Tarihi normalleştir: 13/12/2024", "target": "13 Aralık 2024"}
+{"input": "İngiltere'nin başkenti nedir?", "target": "Londra"}
+{"input": "Fransa'nın başkenti nedir?", "target": "Paris"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "Duygu etiketini söyle: çok sıkıcıydı tavsiye etmem", "target": "negatif"}
+{"input": "Tarihi normalleştir: 4/4/2021", "target": "4 Nisan 2021"}
+{"input": "Hesapla: 7 * 4", "target": "28"}
+{"input": "Türkçeyi İngilizceye çevir: yeşil", "target": "green"}
+{"input": "Listeyi ters çevir: 7 8 4 2 7 1 1", "target": "1 1 7 2 4 8 7"}
+{"input": "Listeyi ters çevir: 3 2 0 1 0 1 7", "target": "7 1 0 1 0 2 3"}
+{"input": "Hesapla: 0 - 2", "target": "-2"}
+{"input": "Türkçeyi İngilizceye çevir: kedi", "target": "cat"}
+{"input": "Listeyi benzersiz yap: 1 8 7 7", "target": "1 7 8"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "Hesapla: 7 * 7", "target": "49"}
+{"input": "Listeyi benzersiz yap: 8 8 0 0 6 1", "target": "0 1 6 8"}
+{"input": "Tarihi normalleştir: 15/6/2021", "target": "15 Haziran 2021"}
+{"input": "Tarihi normalleştir: 15/1/2015", "target": "15 Ocak 2015"}
+{"input": "Duygu etiketini söyle: çok sıkıcıydı tavsiye etmem", "target": "negatif"}
+{"input": "Hesapla: 4 - 2", "target": "2"}
+{"input": "Tarihi normalleştir: 5/5/2021", "target": "5 Mayıs 2021"}
+{"input": "Tarihi normalleştir: 25/2/2024", "target": "25 Şubat 2024"}
+{"input": "Hesapla: 7 * 8", "target": "56"}
+{"input": "Türkçeyi İngilizceye çevir: iyi", "target": "good"}
+{"input": "Türkçeyi İngilizceye çevir: kötü", "target": "bad"}
+{"input": "Almanya'nın başkenti nedir?", "target": "Berlin"}
+{"input": "Listeyi ters çevir: 9 5 4 5 0 0 9", "target": "9 0 0 5 4 5 9"}
+{"input": "İngiltere'nin başkenti nedir?", "target": "Londra"}
+{"input": "Listeyi ters çevir: 5 6 1 6", "target": "6 1 6 5"}
+{"input": "Listeyi ters çevir: 5 0 3 3 3 4 9", "target": "9 4 3 3 3 0 5"}
+{"input": "Türkiye'nin başkenti nedir?", "target": "Ankara"}
+{"input": "Listeyi sırala: 2 0 8 5 0 7", "target": "0 0 2 5 7 8"}
+{"input": "Hesapla: 6 * 9", "target": "54"}
+{"input": "Tarihi normalleştir: 9/1/2022", "target": "9 Ocak 2022"}
+{"input": "İngilizceyi Türkçeye çevir: blue", "target": "mavi"}
+{"input": "Tarihi normalleştir: 19/7/2020", "target": "19 Temmuz 2020"}
+{"input": "İngilizceyi Türkçeye çevir: good", "target": "iyi"}
+{"input": "İngiltere'nin başkenti nedir?", "target": "Londra"}
+{"input": "Listeyi ters çevir: 2 9 4 5 6 3", "target": "3 6 5 4 9 2"}
+{"input": "Tarihi normalleştir: 21/2/2023", "target": "21 Şubat 2023"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "Listeyi sırala: 9 6 3 9 1 9", "target": "1 3 6 9 9 9"}
+{"input": "İtalya'nın başkenti nedir?", "target": "Roma"}
+{"input": "Listeyi ters çevir: 9 8 7 6", "target": "6 7 8 9"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "Fransa'nın başkenti nedir?", "target": "Paris"}
+{"input": "Türkçeyi İngilizceye çevir: yeşil", "target": "green"}
+{"input": "Hesapla: 8 + 5", "target": "13"}
+{"input": "Tarihi normalleştir: 13/5/2024", "target": "13 Mayıs 2024"}
+{"input": "İngilizceyi Türkçeye çevir: bad", "target": "kötü"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Hesapla: 8 * 2", "target": "16"}
+{"input": "Tarihi normalleştir: 7/11/2022", "target": "7 Kasım 2022"}
+{"input": "Listeyi benzersiz yap: 9 0 8 3 5 7 2", "target": "0 2 3 5 7 8 9"}
+{"input": "Duygu etiketini söyle: berbattı hiç beğenmedim", "target": "negatif"}
+{"input": "Hesapla: 4 - 6", "target": "-2"}
+{"input": "Listeyi sırala: 6 4 4 2 4", "target": "2 4 4 4 6"}
+{"input": "Hesapla: 9 - 3", "target": "6"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Duygu etiketini söyle: berbattı hiç beğenmedim", "target": "negatif"}
+{"input": "İngiltere'nin başkenti nedir?", "target": "Londra"}
+{"input": "Listeyi ters çevir: 8 6 6 0 3 2 4", "target": "4 2 3 0 6 6 8"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Listeyi ters çevir: 0 7 0 0 1", "target": "1 0 0 7 0"}
+{"input": "Listeyi benzersiz yap: 1 6 5 1 6 2", "target": "1 2 5 6"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Türkçeyi İngilizceye çevir: dünya", "target": "world"}
+{"input": "Türkçeyi İngilizceye çevir: kitap", "target": "book"}
+{"input": "İngilizceyi Türkçeye çevir: world", "target": "dünya"}
+{"input": "Duygu etiketini söyle: çok sıkıcıydı tavsiye etmem", "target": "negatif"}
+{"input": "Fransa'nın başkenti nedir?", "target": "Paris"}
+{"input": "Listeyi benzersiz yap: 3 6 3 2 1 2 3", "target": "1 2 3 6"}
+{"input": "Listeyi ters çevir: 4 9 0 7 8 5 1", "target": "1 5 8 7 0 9 4"}
+{"input": "Listeyi benzersiz yap: 7 3 4 2 5 7 5", "target": "2 3 4 5 7"}
+{"input": "Listeyi sırala: 0 3 4 8", "target": "0 3 4 8"}
+{"input": "Tarihi normalleştir: 10/11/2020", "target": "10 Kasım 2020"}
+{"input": "Hesapla: 1 + 8", "target": "9"}
+{"input": "Tarihi normalleştir: 13/1/2021", "target": "13 Ocak 2021"}
+{"input": "Listeyi ters çevir: 3 4 3 2", "target": "2 3 4 3"}
+{"input": "Tarihi normalleştir: 21/6/2021", "target": "21 Haziran 2021"}
+{"input": "Fransa'nın başkenti nedir?", "target": "Paris"}
+{"input": "Almanya'nın başkenti nedir?", "target": "Berlin"}
+{"input": "Tarihi normalleştir: 24/7/2020", "target": "24 Temmuz 2020"}
+{"input": "Hesapla: 6 + 1", "target": "7"}
+{"input": "Hesapla: 4 + 8", "target": "12"}
+{"input": "Listeyi ters çevir: 7 0 0 2 7 2", "target": "2 7 2 0 0 7"}
+{"input": "Almanya'nın başkenti nedir?", "target": "Berlin"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "Listeyi benzersiz yap: 1 2 3 8", "target": "1 2 3 8"}
+{"input": "Hesapla: 2 * 9", "target": "18"}
+{"input": "Tarihi normalleştir: 26/6/2022", "target": "26 Haziran 2022"}
+{"input": "Tarihi normalleştir: 28/12/2017", "target": "28 Aralık 2017"}
+{"input": "Listeyi sırala: 4 3 1 6 5 2", "target": "1 2 3 4 5 6"}
+{"input": "Tarihi normalleştir: 13/10/2018", "target": "13 Ekim 2018"}
+{"input": "Türkiye'nin başkenti nedir?", "target": "Ankara"}
+{"input": "Türkçeyi İngilizceye çevir: köpek", "target": "dog"}
+{"input": "Almanya'nın başkenti nedir?", "target": "Berlin"}
+{"input": "Duygu etiketini söyle: fena değil idare eder", "target": "nötr"}
+{"input": "Hesapla: 2 - 0", "target": "2"}
+{"input": "İngilizceyi Türkçeye çevir: red", "target": "kırmızı"}
+{"input": "Duygu etiketini söyle: bu filmi sevdim harikaydı", "target": "pozitif"}
+{"input": "Listeyi sırala: 0 8 6 7", "target": "0 6 7 8"}
+{"input": "Hesapla: 7 + 1", "target": "8"}
+{"input": "Hesapla: 3 - 3", "target": "0"}
+{"input": "Listeyi benzersiz yap: 6 2 6 3 9 3 4", "target": "2 3 4 6 9"}
+{"input": "Hesapla: 3 + 6", "target": "9"}
+{"input": "Tarihi normalleştir: 26/3/2015", "target": "26 Mart 2015"}
+{"input": "Listeyi ters çevir: 9 7 3 5 9", "target": "9 5 3 7 9"}
+{"input": "Hesapla: 7 + 1", "target": "8"}
+{"input": "Tarihi normalleştir: 5/6/2021", "target": "5 Haziran 2021"}
+{"input": "Hesapla: 3 * 6", "target": "18"}
+{"input": "Tarihi normalleştir: 24/10/2019", "target": "24 Ekim 2019"}
