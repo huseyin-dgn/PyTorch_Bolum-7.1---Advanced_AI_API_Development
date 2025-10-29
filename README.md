@@ -12,20 +12,7 @@ Her proje, bağımsız yapıda çalışan özgün bir **API servisi** olarak yap
 
 ## 🧩 Servisler
 
-### 1️⃣ Hyso CNN Servisi
-- **Amaç:** Kendi geliştirdiğim **Hyso** kütüphanesiyle oluşturulan CNN modellerini web üzerinden çalıştırmak.  
-- **Teknolojiler:** `PyTorch`, `HTML`, `CSS`, `JavaScript`  
-- **Çalışma Prensibi:**  
-  Görsel yüklenir → model tahmini gerçekleştirir → sonuç anlık olarak ekranda gösterilir.  
-- **Özellik:**  
-  Eğitim, tahmin ve arayüz etkileşimi tamamen sıfırdan kodlanmıştır.  
-
-#### 🔹 Arayüz Görseli
-<img src="MyAPI/- Kendi API'mizi Kullanalım -/Torch - CNN -/Torch - CNN.png" width="750"/>
-
----
-
-### 2️⃣ Özel LLM Servisi  
+### 1️⃣ Özel LLM Servisi  
 - **Amaç:** Kendi dil modelimin (LLM) API olarak sunulması.  
 - **Model Tabanı:** Transformer tabanlı encoder–decoder mimarisi  
 - **Teknolojiler:** `PyTorch`, `JavaScript`  
@@ -39,6 +26,19 @@ Her proje, bağımsız yapıda çalışan özgün bir **API servisi** olarak yap
 
 #### 🔹 Arayüz Görseli
 <img src="MyAPI/- Kendi API'mizi Kullanalım -/Torch - LLM -/Torch-LLM.png" width="750"/>
+
+---
+
+### 2️⃣ Hyso CNN Servisi
+- **Amaç:** Kendi geliştirdiğim **Hyso** kütüphanesiyle oluşturulan CNN modellerini web üzerinden çalıştırmak.  
+- **Teknolojiler:** `PyTorch`, `HTML`, `CSS`, `JavaScript`  
+- **Çalışma Prensibi:**  
+  Görsel yüklenir → model tahmini gerçekleştirir → sonuç anlık olarak ekranda gösterilir.  
+- **Özellik:**  
+  Eğitim, tahmin ve arayüz etkileşimi tamamen sıfırdan kodlanmıştır.  
+
+#### 🔹 Arayüz Görseli
+<img src="MyAPI/- Kendi API'mizi Kullanalım -/Torch - CNN -/Torch - CNN.png" width="750"/>
 
 ---
 
